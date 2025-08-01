@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zibroncloud - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #0a0a0f;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #121218;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,255,0.1);
+        }
+
+        .logo {
+            text-align: center;
+            font-size: 3.5em;
+            font-weight: bold;
+            margin-bottom: 30px;
+            background: linear-gradient(45deg, #00c6ff, #0072ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 15px rgba(0,157,255,0.5);
+            font-family: 'Arial Black', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        .description {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            color: #a0a0ff;
+        }
+
+        .projects {
+            display: grid;
+            gap: 20px;
+        }
+
+        .project-card {
+            padding: 20px;
+            background-color: #1a1a24;
+            border: 1px solid #2a2a3a;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,157,255,0.2);
+            border-color: #0072ff;
+        }
+
+        .project-card a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project-card a:hover {
+            text-decoration: underline;
+            color: #0072ff;
+        }
+
+        .project-card p {
+            color: #ccccff;
+            margin: 10px 0;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #a0a0ff;
+        }
+
+        .contact {
+            margin-top: 30px;
+            text-align: center;
+            color: #00c6ff;
+            font-size: 1.1em;
+        }
+
+        /* Effetto glow per le emoji */
+        .project-card, .description {
+            text-shadow: 0 0 5px rgba(0,157,255,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            ZIBRONCLOUD
+        </div>
+
+        <div class="description">
+            🚀 Piccole web-app, BOT telegram e altro per la vita quotidiana. ✨
+        </div>
+
+        <div class="projects">
+            <div class="project-card">
+                📱 <a href="https://zibroncloud.github.io/konmarimethod/" target="_blank">Il metodo Marie Kondo</a>
+                <p>Una guida interattiva al metodo di organizzazione KonMari.</p>
+            </div>
+
+            <div class="project-card">
+                ⏳ <a href="https://zibroncloud.github.io/days-counter/" target="_blank">Days Counter</a>
+                <p>Un counter dei giorni di vita - per tenere traccia dei momenti importanti.</p>
+            </div>
+
+            <div class="project-card">
+                🏄‍♂️ <a href="https://t.me/AllSailASD_bot" target="_blank">AllSail Bot</a>
+                <p>BOT Telegram per il noleggio di equipaggiamento SUP/Kayak.</p>
+            </div>
+
+            <div class="project-card">
+                🎭 <a href="https://t.me/OpenMicsBot" target="_blank">OpenMics Bot</a>
+                <p>BOT Telegram powered by Zelig per esibirsi in serate STAND-UP in ITALIA.</p>
+                <p>📢 Unisciti al canale: <a href="https://t.me/OpenMicsITA" target="_blank">OpenMicsITA</a></p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>💻 Creato con ❤️ da Zibroncloud</p>
+        </div>
+
+        <div class="contact">
+            <p>📧 Per info e richieste: zibroncloud@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
